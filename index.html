@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+
+    <header>
+
+        <h1>Responsive Image Gallery</h1>
+
+        <p>
+            Explore beautiful images with filters, lightbox,
+            and smooth navigation.
+        </p>
+
+    </header>
+
+    <!-- Filter Buttons -->
+
+    <section class="filter-section">
+
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="nature">Nature</button>
+
+        <button class="filter-btn" data-filter="city">City</button>
+
+        <button class="filter-btn" data-filter="animals">Animals</button>
+
+    </section>
+
+    <!-- Gallery -->
+
+    <section class="gallery">
+
+        <!-- Nature -->
+
+        <div class="gallery-item nature">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/butterfly.webp" alt="Nature 1">
+        </div>
+
+        <div class="gallery-item nature">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/flower.jpg" alt="Nature 2">
+        </div>
+
+        <div class="gallery-item nature">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/waterfalls.jpg" alt="Nature 3">
+        </div>
+
+        <!-- City -->
+
+        <div class="gallery-item city">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/city1.jpg" alt="City 1">
+        </div>
+
+        <div class="gallery-item city">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/city2.jpg" alt="City 2">
+        </div>
+
+        <div class="gallery-item city">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/city3.jpg" alt="City 3">
+        </div>
+
+        <!-- Animals -->
+
+        <div class="gallery-item animals">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/animal1.jpg" alt="Animal 1">
+        </div>
+
+        <div class="gallery-item animals">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/panda.jpg" alt="Animal 2">
+        </div>
+
+        <div class="gallery-item animals">
+            <img src="C:/Users/91995/Desktop/Image Gallery/images/dog.webp" alt="Animal 3">
+        </div>
+
+    </section>
+
+    <!-- Lightbox -->
+
+    <div class="lightbox">
+
+        <span class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+
+        <button class="prev">
+            <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <img class="lightbox-image" src="" alt="Preview">
+
+        <button class="next">
+            <i class="fa-solid fa-angle-right"></i>
+        </button>
+
+        <div class="caption"></div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Responsive Image Gallery | Created using HTML, CSS & JavaScript
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
